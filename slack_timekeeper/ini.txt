@@ -1,0 +1,4 @@
+auth-token : xoxp-2153792019-8313249396-20534467781-31e3a14fe0
+slack-channel : #kks-python-test
+ws-end-time : soon
+
