@@ -5,3 +5,6 @@
 # Python
 *.pyc
 *.pyo
+
+# Project specific settings
+ini.txt
