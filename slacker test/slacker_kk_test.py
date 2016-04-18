@@ -5,7 +5,7 @@
 
 from slacker import Slacker
 
-slack = Slacker('xoxp-2153792019-8313249396-20534467781-31e3a14fe0')
+slack = Slacker('token')
 
 # Send a message to #[channel/group]
 slack.chat.post_message('#kks-python-test',
