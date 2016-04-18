@@ -26,6 +26,8 @@ SLACK_CHANNEL = init_vars.get('slack-channel')
 
 slack = Slacker(SLACK_TOKEN)
 
+# keep track of time
+
 # build the message
 message = 'This shit is going to end ' + \
             WORKSHOP_END + \
@@ -37,4 +39,3 @@ slack.chat.post_message(SLACK_CHANNEL,
                         username='timekeeper',
                         as_user=False,
                         icon_emoji=':stopwatch:')
-
