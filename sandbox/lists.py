@@ -6,7 +6,7 @@ bicycles = ['trek', 'cannondale','redline','specialized'] #brackets signify this
 print(bicycles) 		# prints the representation of the list, not a formatted list
 
 for bike in bicycles:	# prints a nice list
-	print bike
+	print(bike)
 
 # accessing specific items in the list
 
@@ -35,3 +35,10 @@ print(squares)
 # or use a list comprehension
 squares = [value**2 for value in range(1,11)]
 print(squares)
+
+# slices
+foods = ['pizza', 'falafel', 'cannoli', 'black beans']
+print(foods[:3])
+print(foods[-2:])
+
+

@@ -2,7 +2,7 @@
 
 million = list(range(1,1000001))
 for number in million:
-	print number
+	print (number)
 
 print("Lets check we have all the numbers")
 print("minimum = " + str(min(million)))

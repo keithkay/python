@@ -1,4 +1,5 @@
-# written on python 2.7.11
+#! usr/bin/env python3
+# 
 # test of slacker Python-Slack integration
 # slacker: https://github.com/os/slacker
 # slack api: https://api.slack.com/methods
