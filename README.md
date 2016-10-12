@@ -1,2 +1,2 @@
 # python
-# repository of python code
+! repository of python code
