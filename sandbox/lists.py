@@ -3,18 +3,18 @@
 # use purals for list names
 
 bicycles = ['trek', 'cannondale','redline','specialized'] #brackets signify this is a list
-print(bicycles) 		# prints the representation of the list, not a formatted list
+print(bicycles)         # prints the representation of the list, not a formatted list
 
-for bike in bicycles:	# prints a nice list
-	print(bike)
+for bike in bicycles:   # prints a nice list
+    print(bike)
 
 # accessing specific items in the list
 
-print(bicycles[0])		# first
-print(bicycles[-1])		# last item
+print(bicycles[0])      # first
+print(bicycles[-1])     # last item
 
 names = ['tom', 'bill', 'jane']
-names.append('sue')		# add an item to the end of a list
+names.append('sue')     # add an item to the end of a list
 print(names)
 print('\n')
 
@@ -26,9 +26,9 @@ print(numbers)
 even_numbers = list(range(2,11,2))
 print(even_numbers)
 
-squares = []				# declare  list
-for value in range(1,11):	# generate numbers 1-10
-	squares.append(value**2)
+squares = []                # declare  list
+for value in range(1,11):   # generate numbers 1-10
+    squares.append(value**2)
 
 print(squares)
 
@@ -40,5 +40,11 @@ print(squares)
 foods = ['pizza', 'falafel', 'cannoli', 'black beans']
 print(foods[:3])
 print(foods[-2:])
+
+# checking for a value 'in' a list - couldn't be simpler
+
+if 'pizza' in foods: # not in works the opposite way
+    print('Italian tonight!')
+
 
 
