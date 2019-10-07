@@ -1,2 +1,2 @@
 # python
-repository of python code
+This repository consists of random python files from incomplete projects.
