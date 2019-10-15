@@ -1,0 +1,5 @@
+Git commands
+
+git diff                    >> shows differences between the rep index and your working files
+git diff --staged           >> shows differences between the rep index and the current commit
+git commit                  >> commit the current index to your current branch
