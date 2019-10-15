@@ -2,7 +2,8 @@
 #
 # Chapter 10 - Birthday Pi
 
-
+# First we load the file and build the string contain the first
+# million digits of Pi
 filename = 'pi_million_digits.txt'
 
 with open(filename) as file_object:
@@ -12,8 +13,14 @@ pi_string = ''
 for line in lines:
     pi_string += line.strip()
 
-birthday = input("Enter your birthday in this format mmddyy: ")
-if birthday in pi_string:
-    print("Your birthday appears in the first million digits of pi!")
-else:
+# Next we get the users birthday and use S.find() to return the starting index
+# of the birthday in the pi string. S.find() returns -1 if not found.
+birthday = input("Enter your birthday in this format mmddyy or mmddyyy: ")
+position = pi_string.find(str(birthday))
+
+if position == -1:
     print("Sorry, your birthday does not appear in the first million digits of pi")
+else:
+    print("Your birthday appears in Pi, starting at position " + str(position))
+    print("Let's take a look:\n")
+    print("3.141 ... " + pi_string[position-1:position + len(birthday) + 1] + " ...")
