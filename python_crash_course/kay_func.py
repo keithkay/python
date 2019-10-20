@@ -1,5 +1,5 @@
 #
-# My Function File
+# My Functions File
 #
 # Contains several Python functions for personal use that I have found
 # handy.
