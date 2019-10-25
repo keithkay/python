@@ -8,6 +8,7 @@
 
 # Project specific settings
 ini.txt
+*.json
 
 # ALL BELOW copied from github/gitignore Python.gitignore
 

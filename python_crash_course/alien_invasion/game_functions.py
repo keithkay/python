@@ -6,7 +6,7 @@
 # October 2019
 
 #import libraries
-import sys, pygame
+import sys, pygame, json
 from random import randint
 from time import sleep
 
@@ -34,7 +34,7 @@ def check_keydown_events(event, settings, screen, stats, sb, play_button,
 						aliens, bullets)
 	# Quit
 	elif event.key == pygame.K_q:
-		sys.exit()
+		end_game(stats)
 	# Pause
 	elif event.key == pygame.K_ESCAPE:
 		# Only pause if the game is active
@@ -62,7 +62,7 @@ def check_events(settings, screen, stats, sb, play_button, ship, aliens, bullets
 	"""Respond to keypress and mouse events."""
 	for event in pygame.event.get():
 		if event.type == pygame.QUIT:
-			sys.exit()
+			end_game(stats)
 		elif event.type == pygame.KEYDOWN:
 			check_keydown_events(event, settings, screen, stats, sb,
 									play_button, ship, aliens, bullets)
@@ -109,6 +109,14 @@ def start_game(settings, screen, stats, sb, play_button, ship, aliens,
 	
 	create_fleet(settings, screen, ship, aliens)
 	ship.center_ship()
+
+def end_game(stats):
+	"""Write out the high score and exit the game."""
+	stats.my_dict['high_score'] = stats.high_score
+	with open(stats.filename, 'w') as file_obj:
+		json.dump(stats.my_dict, file_obj)
+		
+	sys.exit()
 
 def update_screen(settings, screen, stats, sb, ship, aliens, bullets, 
 			stars, play_button):

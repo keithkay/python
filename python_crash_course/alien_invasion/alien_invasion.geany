@@ -28,9 +28,9 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=9
-FILE_NAME_0=301;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Falien_invasion.py;0;4
-FILE_NAME_1=74;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Fgame_functions.py;0;4
+current_page=0
+FILE_NAME_0=978;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Falien_invasion.py;0;4
+FILE_NAME_1=3421;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Fgame_functions.py;0;4
 FILE_NAME_2=150;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Fstar.py;0;4
 FILE_NAME_3=647;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Falien.py;0;4
 FILE_NAME_4=306;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Fbullet.py;0;4
@@ -38,7 +38,7 @@ FILE_NAME_5=570;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_cr
 FILE_NAME_6=1099;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Fsettings.py;0;4
 FILE_NAME_7=0;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Fbutton.py;0;4
 FILE_NAME_8=120;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Fscoreboard.py;0;4
-FILE_NAME_9=1102;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Fgame_stats.py;0;4
+FILE_NAME_9=1558;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Fgame_stats.py;0;4
 
 [VTE]
 last_dir=/home/kkay
