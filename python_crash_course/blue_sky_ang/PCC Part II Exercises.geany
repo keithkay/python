@@ -27,12 +27,13 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=1
-FILE_NAME_0=223;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Fblue_sky_ang%2Fblue_sky_ang.py;0;4
-FILE_NAME_1=563;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Fblue_sky_ang%2Fgame_functions.py;0;4
-FILE_NAME_2=343;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Fblue_sky_ang%2Fsettings.py;0;4
-FILE_NAME_3=854;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Fblue_sky_ang%2Fhero.py;0;4
-FILE_NAME_4=181;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Fblue_sky_ang%2Fnotes.py;0;4
+current_page=0
+FILE_NAME_0=758;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Fblue_sky_ang%2Fblue_sky_ang.py;0;4
+FILE_NAME_1=2307;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Fblue_sky_ang%2Fgame_functions.py;0;4
+FILE_NAME_2=521;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Fblue_sky_ang%2Fsettings.py;0;4
+FILE_NAME_3=1298;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Fblue_sky_ang%2Ffireball.py;0;4
+FILE_NAME_4=432;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Fblue_sky_ang%2Fhero.py;0;4
+FILE_NAME_5=182;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Fblue_sky_ang%2Fnotes.py;0;4
 
 [VTE]
 last_dir=/home/kkay

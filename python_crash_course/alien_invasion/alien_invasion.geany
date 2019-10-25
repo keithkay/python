@@ -1,6 +1,6 @@
 [editor]
 line_wrapping=false
-line_break_column=72
+line_break_column=79
 auto_continue_multiline=true
 
 [file_prefs]
@@ -11,7 +11,7 @@ replace_tabs=false
 
 [indentation]
 indent_width=4
-indent_type=1
+indent_type=0
 indent_hard_tab_width=8
 detect_indent=true
 detect_indent_width=true
@@ -21,20 +21,33 @@ indent_mode=2
 name=Alien Invasion
 base_path=/home/kkay/code/python/python_crash_course/alien_invasion
 description=
+file_patterns=
 
 [long line marker]
 long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=1
-FILE_NAME_0=239;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Falien_invasion.py;0;4
-FILE_NAME_1=2346;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Fgame_functions.py;0;4
-FILE_NAME_2=855;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Fstar.py;0;4
-FILE_NAME_3=1139;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Falien.py;0;4
-FILE_NAME_4=1296;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Fbullet.py;0;4
-FILE_NAME_5=0;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Fship.py;0;4
-FILE_NAME_6=407;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Fsettings.py;0;4
+current_page=9
+FILE_NAME_0=301;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Falien_invasion.py;0;4
+FILE_NAME_1=74;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Fgame_functions.py;0;4
+FILE_NAME_2=150;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Fstar.py;0;4
+FILE_NAME_3=647;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Falien.py;0;4
+FILE_NAME_4=306;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Fbullet.py;0;4
+FILE_NAME_5=570;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Fship.py;0;4
+FILE_NAME_6=1099;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Fsettings.py;0;4
+FILE_NAME_7=0;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Fbutton.py;0;4
+FILE_NAME_8=120;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Fscoreboard.py;0;4
+FILE_NAME_9=1102;Python;0;EUTF-8;1;1;0;%2Fhome%2Fkkay%2Fcode%2Fpython%2Fpython_crash_course%2Falien_invasion%2Fgame_stats.py;0;4
 
 [VTE]
 last_dir=/home/kkay
+
+[build-menu]
+EX_00_LB=_Execute
+EX_00_CM=python3 "%f"
+EX_00_WD=
+PythonFT_00_LB=_Compile
+PythonFT_00_CM=python3 -m py_compile "%f"
+PythonFT_00_WD=
+filetypes=Python;

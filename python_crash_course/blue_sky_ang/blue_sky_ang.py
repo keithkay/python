@@ -8,6 +8,7 @@
 
 #import libraries
 import pygame
+from pygame.sprite import Group
 
 #import from game modules
 from settings import Settings
@@ -23,13 +24,17 @@ def run_game():
 		 gbs_settings.screen_height))
 	pygame.display.set_caption("Ang and the Great Blue Sky")
 	
-	# Add our hero
+	# Add our hero and a group of fireballs
 	hero = Hero(gbs_settings, screen)
-	
+	fireballs = Group()
+
 	# Main game loop
 	while True:
-		gf.check_events(hero)
+		gf.check_events(gbs_settings, screen, hero, fireballs)
+		
 		hero.update()
-		gf.update_screen(gbs_settings, screen, hero)
+		gf.update_fireballs(screen, fireballs)
+
+		gf.update_screen(gbs_settings, screen, hero, fireballs)
 		
 run_game()

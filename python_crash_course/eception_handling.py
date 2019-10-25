@@ -8,10 +8,11 @@ print("(Enter 'q' to quit.)")
 # use 'try, exept, else' to handle potential exceptions
 while True:
     first_number = input("\nWhat is you first number?: ")
-    if first_number.lower() == 'q':
+    print("f_n type: ", type(first_number))
+    if first_number == 'q':
         break
-    second_number = input("\nWhat is you second number?: ")
-    if second_number.lower() == 'q':
+    second_number = str(input("\nWhat is you second number?: "))
+    if second_number == 'q':
         break
     try:
         answer = int(first_number) / int(second_number)

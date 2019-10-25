@@ -2,7 +2,7 @@
 #
 # Chapter 10 - json handling
 
-import json
+  
 
 numbers = [2,3,4,5,6,11,13]
 

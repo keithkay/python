@@ -4,13 +4,16 @@
 # adapted by: Keith Kay
 # October 2019
 
+#import libraries
 import pygame
+from pygame.sprite import Sprite
 
-class Ship():
+class Ship(Sprite):
 	"""Defines the class for the player's ship"""
 	
 	def __init__(self, ai_settings, screen):
 		"""Initialize the ship and set its starting position."""
+		super(Ship, self).__init__()
 		self.screen = screen
 		self.settings = ai_settings
 		
